@@ -1,6 +1,7 @@
 {
 	"name": "mustafic4.github.io",
 	"version": "0.0.1",
+	"homepage": "https://mustafic4.github.io",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -10,7 +11,9 @@
 		"check": "svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-check --tsconfig ./jsconfig.json --watch",
 		"lint": "prettier --check --plugin-search-dir=. . && eslint .",
-		"format": "prettier --write --plugin-search-dir=. ."
+		"format": "prettier --write --plugin-search-dir=. .",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
@@ -19,6 +22,7 @@
 		"eslint": "^8.16.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^4.0.0",
+		"gh-pages": "^4.0.0",
 		"prettier": "^2.6.2",
 		"prettier-plugin-svelte": "^2.7.0",
 		"sass": "^1.53.0",
