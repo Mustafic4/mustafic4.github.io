@@ -7,7 +7,8 @@ const config = {
 			pages: 'docs',
       		assets: 'docs',
 			fallback: 'index.html'
-		})
+		}),
+		appDir: 'internal',
 	}
 };
 
