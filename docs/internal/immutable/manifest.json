@@ -1,45 +1,61 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-a4cc51d1.js",
+    "file": "start-9635a26d.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-6f04f939.js"
+      "_index-12dc3800.js"
     ],
     "dynamicImports": [
-      ".svelte-kit/runtime/components/layout.svelte",
+      "src/routes/__layout.svelte",
       ".svelte-kit/runtime/components/error.svelte",
-      "src/routes/index.svelte"
+      "src/routes/index.svelte",
+      "src/routes/team.svelte"
     ]
   },
-  ".svelte-kit/runtime/components/layout.svelte": {
-    "file": "layout.svelte-67ad15c9.js",
-    "src": ".svelte-kit/runtime/components/layout.svelte",
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-c6ba5f52.js",
+    "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-6f04f939.js"
+      "_index-12dc3800.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-58f48e33.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-2fdc2193.js",
+    "file": "error.svelte-5e8a9341.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-6f04f939.js"
+      "_index-12dc3800.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-ca101aec.js",
+    "file": "pages/index.svelte-03504f5e.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-6f04f939.js"
+      "_index-12dc3800.js"
     ]
   },
-  "_index-6f04f939.js": {
-    "file": "chunks/index-6f04f939.js"
+  "src/routes/team.svelte": {
+    "file": "pages/team.svelte-dc4f2139.js",
+    "src": "src/routes/team.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-12dc3800.js"
+    ],
+    "css": [
+      "assets/pages/team.svelte-9593365a.css"
+    ]
+  },
+  "_index-12dc3800.js": {
+    "file": "chunks/index-12dc3800.js"
   }
 }
